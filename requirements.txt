@@ -1,0 +1,30 @@
+# --- Orchestration ---
+langgraph>=0.2.60
+langchain>=0.3.14
+langchain-anthropic>=0.3.1
+langchain-mcp-adapters>=0.1.0
+
+# --- LLM provider swap (optional, for local models later) ---
+# langchain-ollama>=0.2.0
+
+# --- MCP server (MCP 1: YugabyteDB, MCP 3: Python/ML) ---
+mcp>=1.2.0
+psycopg[binary]>=3.1.0
+
+# --- Observability ---
+langfuse>=3.0.0
+
+# --- Config ---
+pydantic>=2.7
+pydantic-settings>=2.2
+python-dotenv>=1.0
+
+# --- Frontend ---
+streamlit>=1.40
+pandas>=2.1
+plotly>=5.20
+
+# --- Phase 2 forecasting (ML MCP) ---
+statsmodels>=0.14
+scikit-learn>=1.4
+numpy>=1.26
